@@ -1,2 +1,4 @@
 django
 djangorestframework
+pylint
+pylint-exit
