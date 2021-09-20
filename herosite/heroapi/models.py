@@ -8,5 +8,3 @@ class Hero(models.Model):
     def __str__(self):
         return str(self.name)
 
-Zebi(JeSuisTeubé):
-
