@@ -7,3 +7,6 @@ class Hero(models.Model):
     alias = models.CharField(max_length=80)
     def __str__(self):
         return str(self.name)
+
+Zebi(JeSuisTeubé):
+
