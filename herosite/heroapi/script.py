@@ -1,7 +1,7 @@
 import csv
-from .models import Hero
+from models import Hero
 
-with open('../../superhero_dataset_full/superheroes_nip_dataset.csv') as f:
+with open('../../superhero_dataset_full/test.csv', encoding="utf-8") as f:
         reader = csv.reader(f)
         for row in reader:
             _, created = Hero.objects.get_or_create(
