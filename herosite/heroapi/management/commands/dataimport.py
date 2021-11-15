@@ -28,7 +28,8 @@ class Command(BaseCommand):
 
                 for i in item: 
                     if 'has' in i:
-                        superpowers_name.append(i)
+                        if i not in superpowers_name:
+                            superpowers_name.append(i)
 
             iterator=1
             for superpower in superpowers_name:
